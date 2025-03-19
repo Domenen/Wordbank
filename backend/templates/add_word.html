@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} Добавить новое слова {% endblock %}
+
+{% block content %}
+<div>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="word1">
+        <input type="text" name="word2">
+        <button type="submit">Отправить</button>
+    </form>
+</div>
+{% endblock %}

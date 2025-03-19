@@ -1,0 +1,6 @@
+word слово
+wood дерево
+check проверка
+exit выход
+open открыто
+area область

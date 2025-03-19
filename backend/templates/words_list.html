@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} Список слов {% endblock %}
+
+{% block content %}
+
+    {% for word_first, word_second in words %}
+    <div>
+        <p>{{ word_first }} -- {{ word_second }}</p>
+    </div>
+    {% endfor %}
+
+{% endblock %}
