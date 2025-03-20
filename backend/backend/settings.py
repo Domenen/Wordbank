@@ -8,7 +8,7 @@ SECRET_KEY = config('SECRET_KEY', default='my_secret_key')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['wordbank-5naa.onrender.com',]
+ALLOWED_HOSTS = ['wordbank-5naa.onrender.com', '0.0.0.0', '127.0.0.1']
 
 
 INSTALLED_APPS = [
